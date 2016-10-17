@@ -2,51 +2,90 @@ body {
   margin: 0;
 }
 
-font-family: 'Poiret One', cursive;
+/*font-family: 'Poiret One', cursive;
 font-family: 'Playfair Display', serif;
-font-family: 'Source Code Pro', monospace;
+font-family: 'Source Code Pro', monospace;*/
 
-h1 {
-  font-family:font-family: 'Source Code Pro', monospace;
+.chron {
+font-size: 50px;
+padding-top: 100px;
+text-align: left;
+padding-left: 100px;
+color: #AFD4DC;
 }
 
 header {
-  height: 300px;;
+  height: 200px;;
   width: 100vw;
-  background-color: black;
-  color: white;
   text-align: center;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  /*color: inherit;*/
+    border-bottom: 1px solid #AFD4DC;
+    margin: 60px;
 }
 
 #navBar {
-  padding-top: 200px;
+  padding-top: 30px;
+  color: black;
 }
+
 
 a {
   text-decoration: none;
 }
 
+
+#navBar a {
+  display: inline;
+  color: grey;
+  padding-right: 70px;
+}
+
 .portrait {
   margin-left: 60px;
-
+  opacity: 0.8;
 }
 
 .columnLeft {
   float: left;
-  width:620px;
-  margin: 10px;
+  /*width:500px;*/
+}
+
+
+.posts {
+  margin-top: 70px;
+  position:absolute;
+}
+.posts h2 {
+  margin-left: 60px;
+  color: #BABABA;
+}
+
+.posts div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+}
+
+#rooftop {
+  height:450px;
+  width: 700px;
+  margin-left: 60px;
 }
 
 .columnRight {
 float: right;
  width: 300px;
-  /*margin: 10px;*/
   margin-right: 100px;
 }
+
 
 .quoteBox {
   border-bottom: 0.5px solid grey;
   font-family: 'Poiret One', cursive;
+  font-size: 15px;
+  letter-spacing: 2px;
    font-style: italic;
    text-align: center;
    color: #919191;
@@ -65,6 +104,8 @@ float: right;
 list-style-type: none;
 font-family: 'Source Code Pro', monospace;
 font-size: 18px;
+text-decoration: none;
+list-style-type: none;
 text-align: left;
 padding-left: 30px;
 color: black;
@@ -83,6 +124,7 @@ color: black;
 .submitSection {
   border-bottom: 1px solid grey;
   padding-bottom: 35px;
+  padding-left: 20px;
 }
 
 .subscribeTitle {
@@ -100,4 +142,25 @@ button {
   padding-bottom: 20px;
   padding-left: 35px;
   padding-right: 35px;
+}
+
+.smallPics {
+  margin-bottom: 20px;
+}
+
+#smallPicContainer {
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid grey;
+}
+
+#smallPicContainer div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+}
+#smallPicContainer img {
+width: 130px;
+height: 130px;
 }
