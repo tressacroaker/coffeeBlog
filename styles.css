@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+font-family: 'Poiret One', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Code Pro', monospace;
+
+h1 {
+  font-family:font-family: 'Source Code Pro', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.columnLeft {
+  float: left;
+  width:620px;
+  margin: 10px;
+}
+
+.columnRight {
+float: right;
+ width: 300px;
+  margin: 10px;
+}
