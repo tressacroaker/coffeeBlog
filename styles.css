@@ -6,6 +6,12 @@ body {
 font-family: 'Playfair Display', serif;
 font-family: 'Source Code Pro', monospace;*/
 
+#social{
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  letter-spacing: 5px;
+}
 .chron {
 font-size: 50px;
 padding-top: 100px;
@@ -26,20 +32,15 @@ header {
 }
 
 #navBar {
-  padding-top: 30px;
-  color: black;
+  padding-top: 70px;
+  z-index: 0;
 }
-
-
-a {
-  text-decoration: none;
-}
-
 
 #navBar a {
   display: inline;
   color: grey;
   padding-right: 70px;
+  text-decoration: none;
 }
 
 .portrait {
@@ -47,31 +48,44 @@ a {
   opacity: 0.8;
 }
 
-.columnLeft {
+#columnLeft {
   float: left;
   /*width:500px;*/
 }
 
+.posts h3 {
+  color: grey;
+  font-size: 20px;
+}
 
-.posts {
+#posts {
   margin-top: 70px;
   position:absolute;
+  margin-left: 140px;
 }
-.posts h2 {
-  margin-left: 60px;
+#posts h2 {
   color: #BABABA;
+  letter-spacing: 4px;
+font-family: 'Poiret One', cursive;
+  font-size: 30px;
 }
 
-.posts div {
+#posts div {
   background-color: white;
   width: 100%;
   display: inline-block;
 }
 
 #rooftop {
-  height:450px;
-  width: 700px;
-  margin-left: 60px;
+  height:500px;
+  width: 800px;
+  /*margin-left:140px;*/
+}
+
+#posts h5 {
+  letter-spacing: 4px;
+font-family: 'Poiret One', cursive;
+
 }
 
 .columnRight {
@@ -101,14 +115,19 @@ float: right;
 }
 
 #list li {
-list-style-type: none;
-font-family: 'Source Code Pro', monospace;
-font-size: 18px;
+font-family: 'Poiret One', cursive;
+font-size: 20px;
 text-decoration: none;
 list-style-type: none;
 text-align: left;
 padding-left: 30px;
-color: black;
+}
+
+#list a {
+  color: grey;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 50px;
 }
 
 .subBox {
@@ -164,3 +183,60 @@ button {
 width: 130px;
 height: 130px;
 }
+
+/*.pics {
+  margin-bottom: 100px;
+}*/
+
+#bigPicContainer {
+  float: left;
+  margin-top: 200px;
+  position: relative;
+  border-bottom: 1px solid grey;
+  margin-left: 130px;
+}
+
+#bigPicContainer div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+}
+#bigPicContainer img {
+width: 400px;
+height: 400px;
+}
+
+.traveldropdown {
+  display: none;
+  width: 300px;
+}
+
+.photodropdown {
+  display: none;
+  width: 300px;
+}
+
+.photodropdown li {
+  border: 0.5px solid grey;
+  padding: 10px;
+  font-size: 18px;
+font-family: 'Poiret One', cursive;
+  list-style: none;
+  background-color: none;
+  text-align: center;
+  opacity: .6;
+  color: black;
+  width: 279px;
+}
+
+.traveldropdown li {
+   border: 0.5px solid grey;
+   padding: 10px;
+   font-size: 18px;
+font-family: 'Poiret One', cursive;
+   list-style: none;
+   background-color: none;
+   text-align: center;
+   opacity: .6;
+   color: black;
+ }
